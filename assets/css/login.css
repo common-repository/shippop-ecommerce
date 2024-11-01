@@ -1,0 +1,209 @@
+div.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.specm-wrapper-login {
+  /* position: absolute; */
+  /* position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 540px;
+  height: 580px;
+  background-color: white;
+  border-radius: 15px; */
+
+  position: relative;
+  /* -ms-transform: translate(-50%, -50%); */
+  width: 540px;
+  background-color: white;
+  border-radius: 15px;
+  margin: auto;
+  width: 45%;
+}
+
+div.specm-wrapper-login select {
+  max-width: 100%;
+}
+
+div.specm-wrapper-register {
+  /* position: absolute; */
+  /* position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 600px; */
+  /* height: 620px; */
+  /* height: auto;
+  background-color: white;
+  border-radius: 15px; */
+  position: relative;
+  /* -ms-transform: translate(-50%, -50%); */
+  width: 540px;
+  background-color: white;
+  border-radius: 15px;
+  margin: auto;
+  width: 45%;
+}
+
+div.specm-wrapper-register .register-red-star {
+  color: red;
+  font-size: 5px;
+  position: absolute;
+  margin-left: 2px;
+}
+
+div.specm-wrapper-copyright {
+  position: relative;
+  margin: auto;
+  width: 45%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+div.specm-wrapper-login h1.login-title {
+  text-align: center;
+  padding: 30px;
+}
+
+div.specm-wrapper-register h1.login-title {
+  text-align: center;
+  font-size: 18px;
+  white-space: pre-wrap;
+}
+
+div.specm-wrapper-register form div.specm-frm-group label {
+  display: block;
+  font-size: 14px;
+  /* font-weight: bold; */
+}
+
+div.specm-wrapper-login form div.specm-frm-group label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+div.specm-wrapper-login form div.specm-frm-group {
+  padding: 10px 30px;
+}
+
+div.specm-wrapper-register form div.specm-frm-group {
+  padding: 10px 30px;
+}
+
+form div.specm-frm-group input[type="email"],
+form div.specm-frm-group input[type="text"],
+form div.specm-frm-group input[type="password"],
+form div.specm-frm-group select {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 5px;
+  max-width: 100%;
+}
+
+form div.specm-frm-group button[type="submit"] {
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+  height: 50px;
+  box-shadow: 0 0 0 0 white;
+  background-color: #0273aa;
+  border: solid 1px #0273aa;
+  cursor: pointer;
+}
+
+form div.specm-frm-group button[type="button"] {
+  height: 40px;
+  padding: 15px;
+  background-color: white;
+  border: solid 1px #0273aa;
+  border-radius: 10px;
+  color: #0273aa;
+  line-height: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* The container */
+.specm-checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.specm-checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.specm-checkbox-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.specm-checkbox-container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.specm-checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.specm-checkbox-container .checkmark:after {
+  left: 6px;
+  top: 4px;
+  width: 5px;
+  height: 7px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+span.back-to-login {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  cursor: pointer;
+}

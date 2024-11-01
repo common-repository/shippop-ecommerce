@@ -1,0 +1,296 @@
+body {
+  height: 100%;
+}
+
+.modal-title {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.modal-close {
+  position: absolute;
+  right: 0px;
+  padding: 15px 15px 10px 15px;
+  top: 0px;
+}
+
+.modal-close a {
+  color: #ccc;
+  font-size: 14px;
+  text-decoration: none !important;
+}
+
+.modal-shippop {
+  /* max-width: 70%; */
+  border-radius: unset;
+  padding: 0px !important;
+  box-shadow: 0 0 0 0 white !important;
+}
+
+.modal-shippop div.modal-content {
+  border-top: solid 1px #ccc;
+}
+
+.bg-shippop-main-color {
+  background: #0273aa !important;
+  color: white !important;
+}
+
+/* .bg-shippop-close {
+  background: white !important;
+  color: black !important;
+  border: #ccc !important;
+} */
+
+.txt-shippop-main-color {
+  color: #0273aa !important;
+}
+
+.bd-shippop-main-color {
+  border: solid 1px #0273aa !important;
+}
+
+.specm-background-list-column {
+  background-color: #ccc;
+  color: black;
+  height: 50px;
+}
+
+button.active-select-courier {
+  background-color: #0273aa !important;
+  color: white !important;
+}
+
+input.button-shippop-submit {
+  background-color: #5cb85c !important;
+  color: white !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.modal-table-style {
+  border-top: solid 2px #ccc;
+  border-left: solid 2px #ccc;
+  border-right: solid 2px #ccc;
+  border-bottom: solid 2px #ccc;
+}
+
+button.purchase-cancel {
+  /* background-color: #eba4a3 !important;
+  color: #933d3c !important; */
+  background-color: #d85353 !important;
+  color: white !important;
+  border-color: #ccc !important;
+}
+
+.ui-dialog-titlebar-close {
+  visibility: hidden;
+}
+
+#shippop-ecommerce-modal {
+  width: 100% !important;
+  overflow: hidden !important;
+  max-width: 100% !important;
+  padding: 10px 0px 5px 0px;
+}
+
+div.specm-modal-content {
+  padding: 0px 0px 15px 0px;
+  overflow-y: auto;
+  height: 400px;
+  /* border-top: solid 2px #b4b9be; */
+}
+
+.hideTitleDialog {
+  padding: 0px !important;
+}
+
+.hideTitleDialog .ui-dialog-titlebar {
+  display: none !important;
+}
+
+#shippop-ecommerce-modal.ui-widget-content {
+  border: none !important;
+}
+
+form.shippop-wp-list-table div.tablenav.top div.tablenav-pages {
+  display: none;
+}
+
+form.shippop-wp-list-table table tbody tr.no-items td.colspanchange {
+  text-align: center;
+}
+
+.ui-datepicker .ui-datepicker-title {
+  line-height: 2.3em !important;
+}
+
+.specm-input-style {
+  border-radius: 5px;
+  height: 28px !important;
+  /* padding: 3px 5px !important; */
+  padding: 0px 5px !important;
+  line-height: 28px !important;
+}
+
+.specm-get-list-choose-courier {
+  width: 120px;
+  height: 35px;
+  background-color: #0273aa;
+  border: solid 1px #0273aa;
+  border-radius: 5px;
+  /* margin-bottom: 5px; */
+  color: white;
+}
+
+button.specm-get-list-choose-courier:disabled {
+  opacity: 0.5;
+}
+
+#specm_overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+button.button-shippop-submit {
+  background-color: green !important;
+  border: solid 1px green !important;
+  color: white !important;
+  padding: 15px !important;
+  line-height: 5px !important;
+  height: 37px !important;
+  width: 80px;
+}
+
+button.alert-modal-button-close {
+  margin: 10px !important;
+  background: white !important;
+  box-shadow: 0 0 0 0 white !important;
+  border-color: #0273aa !important;
+  color: #0273aa !important;
+}
+
+button.alert-modal-button-other {
+  margin: 10px !important;
+  background-color: #0273aa !important;
+  color: white !important;
+  border-color: #0273aa !important;
+  box-shadow: 0 0 0 0 #0273aa !important;
+}
+
+div.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+li.specm-sp {
+  background-color: #e5e5e5;
+  padding: 4px;
+  border-radius: 5px;
+  margin-right: 4px;
+}
+
+li.specm-sp a {
+  color: black;
+}
+
+li.specm-current {
+  background-color: #0273aa !important;
+}
+
+li.specm-current a,
+li.specm-current a span.count {
+  color: white !important;
+}
+
+button#export_to_csv {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 0 white !important;
+}
+
+button.specm-search-with-input {
+  margin-left: -10px;
+  height: 30px;
+  border: solid 1px #ccc;
+}
+
+.specm-elm-hide {
+  display: none !important;
+}
+
+button.specm-addr-corrector {
+  display: block !important;
+  background-color: #0273aa !important;
+  border-color: #0273aa !important;
+  /* margin: 0 auto !important; */
+  padding: 15px !important;
+  line-height: 5px !important;
+}
+
+form[name='settings'] > h2 {
+  font-size: 28px;
+}
+
+form[name='settings'] > table > tbody > tr > td > input[type='text'],
+form[name='settings'] > table > tbody > tr > td > input[type='email'],
+form[name='settings'] > table > tbody > tr > td > input[type='phone'] {
+  font-size: 16px;
+  height: 38px;
+  width: 32em;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+form[name='settings'] > table > tbody > tr > th {
+  font-size: 16px;
+}
+
+form[name='settings'] > table > tbody > tr > td > textarea {
+  font-size: 16px;
+  width: 32em;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.red-star {
+  color: red;
+  font-size: 5px;
+  position: fixed;
+  margin-left: 2px;
+}
+
+.red-star-setting {
+  color: red;
+  margin-left: 2px;
+}
+
+form.shippop-wp-list-table table.wp-list-table > tfoot {
+  display: none;
+}
+
+form.shippop-wp-list-table table.wp-list-table {
+  margin-top: 10px;
+  display: inline-table;
+}
+
+.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.hideTitleDialog.ui-dialog-buttons div button {
+  padding: 5px;
+}
+
+.hide-advance-setting {
+  display: none;
+}

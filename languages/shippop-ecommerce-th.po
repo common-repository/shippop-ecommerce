@@ -1,0 +1,715 @@
+# Copyright (C) 2020 SHIPPOP
+# This file is distributed under the same license as the SHIPPOP plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: SHIPPOP 2.0\n"
+"Report-msgstr-Bugs-To: https://wordpress.org/support/plugin/shippop-ecommerce\n"
+"POT-Creation-Date: 2020-12-10T11:27:21+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#. Plugin Name of the plugin
+#. Description of the plugin
+#. Author of the plugin
+#: includes/shippop_login.php:92 includes/shippop_login.php:93
+#: includes/shippop_setting.php:63 includes/shippop_setting.php:64
+#: shippop-ecommerce.php:400 shippop-ecommerce.php:401
+msgid "SHIPPOP"
+msgstr "SHIPPOP"
+
+#. Author URI of the plugin
+msgid "https://shippop.com"
+msgstr "https://shippop.com"
+
+#: helper.php:199
+msgid "Deliver to Drop Off point yourself"
+msgstr "นำไปส่งที่จุด Drop Off"
+
+#: helper.php:202 helper.php:206
+msgid "Pick-up service"
+msgstr "เข้ารับที่หน้าบ้าน"
+
+#: includes/ajax-api/ajax-api-address-corrector.php:40
+msgid "Incorrect Address"
+msgstr "ที่อยู่ไม่ถูกต้อง"
+
+#: includes/ajax-api/ajax-api-address-corrector.php:61
+#: includes/ajax-api/ajax-api-choose-courier.php:244
+#: includes/ajax-api/ajax-api-choose-courier.php:249
+#: includes/ajax-api/ajax-api-choose-courier.php:281
+msgid "Select"
+msgstr "เลือก"
+
+#: includes/ajax-api/ajax-api-address-corrector.php:72
+#: includes/shippop_setting.php:210
+msgid "State"
+msgstr "ตำบล/แขวง"
+
+#: includes/ajax-api/ajax-api-address-corrector.php:73
+#: includes/shippop_setting.php:218
+msgid "District"
+msgstr "อำเภอ/เขต"
+
+#: includes/ajax-api/ajax-api-address-corrector.php:74
+#: includes/shippop_setting.php:226
+msgid "Province"
+msgstr "จังหวัด"
+
+#: includes/ajax-api/ajax-api-address-corrector.php:75
+#: includes/shippop_setting.php:234
+msgid "Zipcode"
+msgstr "รหัสไปรษณีย์"
+
+#: includes/ajax-api/ajax-api-choose-courier.php:97
+msgid "Fail to get order data"
+msgstr "Fail to get order data"
+
+#: includes/ajax-api/ajax-api-choose-courier.php:106
+msgid "Please specify parcel dimension first"
+msgstr "ยังไม่ได้ระบุขนาดของกล่อง กรุณา ตั้งค่าขนาดกล่องที่จัดส่งของ คำสั่งซื้อนี้ก่อน"
+
+#: includes/ajax-api/ajax-api-choose-courier.php:156 shippop-ecommerce.php:274
+msgid "Booking confirmed and Payment completed"
+msgstr "ยืนยันการจองและชำระเงินสำเร็จ"
+
+#: includes/ajax-api/ajax-api-choose-courier.php:157
+msgid "Please print waybill"
+msgstr "กรุณาพิมพ์ใบปะหน้า"
+
+#: includes/ajax-api/ajax-api-choose-courier.php:213
+#: includes/ajax-api/ajax-api-choose-courier.php:258
+msgid "Couriers list"
+msgstr "รายชื่อขนส่ง"
+
+#: includes/ajax-api/ajax-api-choose-courier.php:214
+#: includes/ajax-api/ajax-api-choose-courier.php:259
+msgid "Conditions for pick-up service"
+msgstr "เงื่อนไขการเข้ารับ"
+
+#: includes/ajax-api/ajax-api-choose-courier.php:215
+#: includes/ajax-api/ajax-api-choose-courier.php:260
+msgid "Service type"
+msgstr "วิธีการเข้ารับพัสดุ"
+
+#: includes/ajax-api/ajax-api-choose-courier.php:216
+#: includes/ajax-api/ajax-api-choose-courier.php:261
+msgid "Estimated charge"
+msgstr "ค่าส่งโดยประมาณ"
+
+#: includes/ajax-api/ajax-api-choose-courier.php:217
+#: includes/ajax-api/ajax-api-choose-courier.php:262
+msgid "Choose"
+msgstr "ใช้บริการ"
+
+#: includes/ajax-api/ajax-api-choose-courier.php:304 shippop-ecommerce.php:270
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: includes/ajax-api/ajax-api-parcel-shipping.php:137 shippop-ecommerce.php:84
+msgid "Success"
+msgstr "สำเร็จ"
+
+#: includes/ajax-api/ajax-api-parcel-shipping.php:153
+msgid "Pending"
+msgstr "รอยืนยัน"
+
+#: includes/ajax-api/ajax-api-parcel-shipping.php:236
+msgid "Order"
+msgstr "คำสั่งซื้อ"
+
+#: includes/ajax-api/ajax-api-parcel-shipping.php:237
+msgid "SHIPPOP's tracking number"
+msgstr "หมายเลขพัสดุ"
+
+#: includes/ajax-api/ajax-api-parcel-shipping.php:238
+msgid "Courier's tracking number"
+msgstr "หมายเลขพัสดุจากขนส่ง"
+
+#: includes/choose_courier.php:45 includes/choose_courier.php:55
+#: page-table/shippop-ecommerce-table.php:296 shippop-ecommerce.php:468
+msgid "Choose Courier"
+msgstr "เลือกขนส่ง"
+
+#: includes/class_overview.php:38
+msgid "Number of data per page:"
+msgstr "จำนวนข้อมูลต่อหน้า:"
+
+#: includes/parcel_shipping.php:32 shippop-ecommerce.php:268
+msgid "Confirm order cancellation ?"
+msgstr "ยืนยันการยกเลิกรายการ"
+
+#: includes/parcel_shipping.php:43 shippop-ecommerce.php:413
+#: shippop-ecommerce.php:414
+msgid "Parcel List"
+msgstr "รายการจัดส่งพัสดุ"
+
+#: includes/parcel_shipping.php:54 includes/report_cod.php:66
+#: shippop-ecommerce.php:355 shippop-ecommerce.php:377
+#: shippop-ecommerce.php:546
+msgid "Parcel tracking"
+msgstr "ติดตามพัสดุ"
+
+#: includes/report_cod.php:42 includes/report_cod.php:53
+#: shippop-ecommerce.php:424 shippop-ecommerce.php:425
+msgid "COD Report"
+msgstr "รายงาน COD"
+
+#: includes/report_cod.php:70
+msgid "Total"
+msgstr "ยอดรวม"
+
+#: includes/report_cod.php:76
+msgid "Summary total"
+msgstr "สรุปรวม"
+
+#: includes/shippop_login.php:56
+msgid "Thank you for your interest in SHIPPOP service. We already received your information"
+msgstr "ขอบคุณที่สนใจใช้บริการ SHIPPOP ทางเราได้รับข้อมูลของคุณแล้ว"
+
+#: includes/shippop_login.php:57
+msgid "Our team will contact you within 1-2 business days"
+msgstr "กรุณารอพนักงานติดต่อกลับ ภายใน 1-2 วันทำการ"
+
+#: includes/shippop_login.php:136
+msgid "Can’t connect. Please try again later"
+msgstr "ไม่สามารถใช้งานได้ กรุณาลองใหม่อีกครั้ง"
+
+#: includes/shippop_login.php:147
+msgid "Login to SHIPPOP"
+msgstr "เข้าสู่ระบบ เพื่อใช้งาน"
+
+#: includes/shippop_login.php:151 includes/shippop_login.php:205
+msgid "Email"
+msgstr "อีเมล"
+
+#: includes/shippop_login.php:155
+msgid "Password"
+msgstr "รหัสผ่าน"
+
+#: includes/shippop_login.php:159 includes/shippop_setting.php:166
+msgid "Choose country"
+msgstr "เลือกประเทศที่ให้บริการ"
+
+#: includes/shippop_login.php:161
+msgid "Thailand"
+msgstr "ไทย"
+
+#: includes/shippop_login.php:162
+msgid "Malaysia"
+msgstr "มาเลเซีย"
+
+#: includes/shippop_login.php:166
+msgid "Remember me"
+msgstr "จำฉันไว้ในระบบ"
+
+#: includes/shippop_login.php:172
+msgid "Login"
+msgstr "เข้าสู่ระบบ"
+
+#: includes/shippop_login.php:176
+msgid "Do not have account?"
+msgstr "ยังไม่มีบัญชีเข้าใช้งาน?"
+
+#: includes/shippop_login.php:179
+msgid "Interested in our services"
+msgstr "สนใจใช้บริการ"
+
+#: includes/shippop_login.php:189
+msgid ""
+"Interested in our services? \n"
+" Fill this form, and our team will contact you back"
+msgstr "สนใจใช้งาน กรอกข้อมูลเพื่อให้ทีมงานติดต่อกลับ"
+
+#: includes/shippop_login.php:193
+msgid "Company name (Optional)"
+msgstr "ชื่อบริษัท (ไม่บังคับ)"
+
+#: includes/shippop_login.php:197 includes/shippop_setting.php:183
+#: includes/shippop_setting.php:252
+msgid "Name and Surname"
+msgstr "ชื่อ นามสกุล"
+
+#: includes/shippop_login.php:201
+msgid "Telephone number"
+msgstr "เบอร์โทรศัพท์"
+
+#: includes/shippop_login.php:209
+msgid "Interested courier services"
+msgstr "ขนส่งที่สนใจจะเปิดใช้งาน"
+
+#: includes/shippop_login.php:213
+msgid "Submit"
+msgstr "ส่งข้อมูล เพื่อให้ทางเราติดต่อกลับหาคุณ"
+
+#: includes/shippop_setting.php:77
+msgid "Please make sure that all required information are filled and validated before using SHIPPOP"
+msgstr "กรุณากรอกข้อมูลและตรวจสอบข้อมูล ทั้งหมดก่อนเริ่มใช้ SHIPPOP ด้วยครับ"
+
+#: includes/shippop_setting.php:87
+msgid "Information updated"
+msgstr "บันทึกข้อมูลเรียบร้อย"
+
+#: includes/shippop_setting.php:104 shippop-ecommerce.php:446
+#: shippop-ecommerce.php:447
+msgid "Logout"
+msgstr "ออกจากระบบ"
+
+#: includes/shippop_setting.php:116 includes/shippop_setting.php:119
+msgid "Save"
+msgstr "บันทึกข้อมูล"
+
+#: includes/shippop_setting.php:124
+msgid "Please choose correct store's address for pick-up service"
+msgstr "เลือกที่อยู่ร้านค้า(ใช้ในการเข้ารับพัสดุ) ที่ถูกต้อง"
+
+#: includes/shippop_setting.php:124
+msgid "Please choose correct billing address for billing service"
+msgstr "เลือกที่อยู่ใบเสร็จที่ถูกต้อง"
+
+#: includes/shippop_setting.php:151 shippop-ecommerce.php:434
+#: shippop-ecommerce.php:435
+msgid "Settings"
+msgstr "ตั้งค่า"
+
+#: includes/shippop_setting.php:176
+msgid "Store's address for pick-up service"
+msgstr "ที่อยู่ร้านค้า(ใช้ในการเข้ารับพัสดุ)"
+
+#: includes/shippop_setting.php:176
+msgid "Copy store's address intro billing address"
+msgstr "ใช้ที่อยู่นี้ป็นที่อยู่ใบเสร็จรับเงิน"
+
+#: includes/shippop_setting.php:191 includes/shippop_setting.php:268
+msgid "Contact number"
+msgstr "เบอร์โทรติดต่อ"
+
+#: includes/shippop_setting.php:199 includes/shippop_setting.php:276
+msgid "Address"
+msgstr "ที่อยู่"
+
+#: includes/shippop_setting.php:245
+msgid "Billing and invoice addresses"
+msgstr "ที่อยู่ใบแจ้งนี้และใบเสร็จรับเงิน"
+
+#: includes/shippop_setting.php:260
+msgid "Tax ID"
+msgstr "เลขประจำตัวผู้เสียภาษีอากร"
+
+#: includes/shippop_setting.php:366
+msgid "Please fill in your address"
+msgstr "กรุณากรอกที่อยู่ของคุณ"
+
+#: libs/crud-function.php:68
+msgid "Update status from SHIPPOP's WebHooks"
+msgstr "อัพเดตสถานะจาก Webhooks SHIPPOP"
+
+#: page-table/parcel-shipping-table.php:159
+#: page-table/shippop-ecommerce-table.php:142
+msgid "Order date"
+msgstr "วันที่สั่งซื้อสินค้า"
+
+#: page-table/parcel-shipping-table.php:162
+msgid "Couriers"
+msgstr "ขนส่ง"
+
+#: page-table/parcel-shipping-table.php:163 page-table/report-cod-table.php:74
+#: page-table/shippop-ecommerce-table.php:145
+msgid "Status"
+msgstr "สถานะ"
+
+#: page-table/parcel-shipping-table.php:164
+msgid "Real weight"
+msgstr "น้ำหนักส่งจริง"
+
+#: page-table/parcel-shipping-table.php:165
+msgid "Real charge"
+msgstr "ค่าขนส่งจริง"
+
+#: page-table/parcel-shipping-table.php:170
+msgid "COD"
+msgstr "ชำระเงินปลายทาง"
+
+#: page-table/parcel-shipping-table.php:174
+#: page-table/parcel-shipping-table.php:296
+msgid "Cancel order"
+msgstr "ยกเลิกรายการ"
+
+#: page-table/parcel-shipping-table.php:294
+#: page-table/parcel-shipping-table.php:347 shippop-ecommerce.php:276
+msgid "Print waybill"
+msgstr "พิมพ์ใบปะหน้า"
+
+#: page-table/parcel-shipping-table.php:316
+msgid "All"
+msgstr "ทั้งหมด"
+
+#: page-table/parcel-shipping-table.php:326
+msgid "All Courier"
+msgstr "ขนส่งทั้งหมด"
+
+#: page-table/parcel-shipping-table.php:334 page-table/report-cod-table.php:210
+#: page-table/shippop-ecommerce-table.php:280
+msgid "Search from date"
+msgstr "ค้นหาจากวันที่เริ่มต้น"
+
+#: page-table/parcel-shipping-table.php:335 page-table/report-cod-table.php:211
+#: page-table/shippop-ecommerce-table.php:281
+msgid "To date"
+msgstr "วันที่สิ้นสุด"
+
+#: page-table/parcel-shipping-table.php:339
+msgid "Search by Tracking number"
+msgstr "ค้นหาหมายเลขติดตามพัสดุ"
+
+#: page-table/parcel-shipping-table.php:344
+#: page-table/shippop-ecommerce-table.php:295 shippop-ecommerce.php:277
+msgid "Please select order(s)"
+msgstr "กรุณาเลือกคำสั่งซื้อก่อน"
+
+#: page-table/parcel-shipping-table.php:352 page-table/report-cod-table.php:223
+msgid "Export"
+msgstr "ส่งออกรายงาน"
+
+#: page-table/parcel-shipping-table.php:373 page-table/report-cod-table.php:256
+#: page-table/shippop-ecommerce-table.php:316
+msgid "View"
+msgstr "แสดง"
+
+#: page-table/parcel-shipping-table.php:379 page-table/report-cod-table.php:262
+#: page-table/shippop-ecommerce-table.php:322
+msgid "items per page."
+msgstr "จำนวนต่อหน้า"
+
+#: page-table/report-cod-table.php:72
+msgid "Delivery date"
+msgstr "วันที่จัดส่ง"
+
+#: page-table/report-cod-table.php:73
+msgid "Date of delivery completion"
+msgstr "วันที่ส่งสำเร็จ"
+
+#: page-table/report-cod-table.php:75
+msgid "Receiver name"
+msgstr "ชื่อผู้รับ"
+
+#: page-table/report-cod-table.php:76
+msgid "COD transfer date"
+msgstr "วันที่โอนคืน"
+
+#: page-table/report-cod-table.php:77
+msgid "COD amount"
+msgstr "ยอดเก็บเงิน"
+
+#: page-table/report-cod-table.php:78
+msgid "Fee"
+msgstr "ค่าธรรมเนียม"
+
+#: page-table/report-cod-table.php:79
+msgid "Transferring amount"
+msgstr "ยอดโอนคืน"
+
+#: page-table/report-cod-table.php:80
+msgid "Billing ID"
+msgstr "เลขที่ใบเสร็จ"
+
+#: page-table/report-cod-table.php:81
+msgid "Transferring status"
+msgstr "สถานะโอนคืน"
+
+#: page-table/report-cod-table.php:202
+msgid "Last Week"
+msgstr "สัปดาห์แล้ว"
+
+#: page-table/report-cod-table.php:203
+msgid "This Month"
+msgstr "เดือนนี้"
+
+#: page-table/report-cod-table.php:204
+msgid "Last Month"
+msgstr "เดือนที่แล้ว"
+
+#: page-table/report-cod-table.php:205
+msgid "Last Year"
+msgstr "ปีที่แล้ว"
+
+#: page-table/report-cod-table.php:216
+msgid "Search from shipping date"
+msgstr "ค้นหาจากวันที่จัดส่ง"
+
+#: page-table/report-cod-table.php:217
+msgid "Search from COD transferring date"
+msgstr "ค้นหาจากวันที่โอนคืน"
+
+#: page-table/shippop-ecommerce-table.php:144
+msgid "Customer address"
+msgstr "ที่อยู่ลูกค้า"
+
+#: page-table/shippop-ecommerce-table.php:146
+msgid "Weight (kg.)"
+msgstr "น้ำหนัก (กก.)"
+
+#: page-table/shippop-ecommerce-table.php:147
+msgid "Customer selected courier"
+msgstr "ขนส่งที่ลูกค้าเลือก"
+
+#: page-table/shippop-ecommerce-table.php:148
+msgid "Payment method"
+msgstr "วิธีการชำระเงิน"
+
+#: page-table/shippop-ecommerce-table.php:286
+msgid "All payment method"
+msgstr "วิธีการชำระเงินทั้งหมด"
+
+#: shippop-ecommerce.php:82
+msgid "Confirmed"
+msgstr "ยืนยันแล้ว"
+
+#: shippop-ecommerce.php:83
+msgid "During delivery"
+msgstr "ระหว่างจัดส่ง"
+
+#: shippop-ecommerce.php:85
+msgid "Failed/Cancelled"
+msgstr "เกิดข้อผิดพลาด/ยกเลิก"
+
+#: shippop-ecommerce.php:86
+msgid "Returned"
+msgstr "ถูกตีกลับ"
+
+#: shippop-ecommerce.php:89
+msgid "Confirmation pending"
+msgstr "รอตรวจสอบ"
+
+#: shippop-ecommerce.php:90
+msgid "Pending transfer"
+msgstr "เตรียมโอนเงินคืน"
+
+#: shippop-ecommerce.php:91
+msgid "Transfered"
+msgstr "โอนเงินคืนแล้ว"
+
+#: shippop-ecommerce.php:92
+msgid "Cancelled"
+msgstr "ยกเลิกการโอนคืน"
+
+#: shippop-ecommerce.php:95
+msgid "Receipt ( Default )"
+msgstr "ใบเสร็จ ( Default )"
+
+#: shippop-ecommerce.php:96
+msgid "A4"
+msgstr "A4"
+
+#: shippop-ecommerce.php:97
+msgid "A5"
+msgstr "A5"
+
+#: shippop-ecommerce.php:98
+msgid "A6"
+msgstr "A6"
+
+#: shippop-ecommerce.php:99
+msgid "Letter"
+msgstr "ซองจดหมาย"
+
+#: shippop-ecommerce.php:100
+msgid "Size 4x6"
+msgstr "ขนาด 4*6"
+
+#: shippop-ecommerce.php:101
+msgid "Sticker size 8x8 cm"
+msgstr "ขนาดสติกเกอร์ 8x8 เซนติเมตร"
+
+#: shippop-ecommerce.php:102
+msgid "Sticker size 4x6 in"
+msgstr "ขนาดสติกเกอร์ 4x6 นิ้ว"
+
+#: shippop-ecommerce.php:269
+msgid "OK"
+msgstr "ตกลง"
+
+#: shippop-ecommerce.php:271 shippop-ecommerce.php:288
+#: shippop-ecommerce.php:310
+msgid "Notice"
+msgstr "แจ้งเตือน"
+
+#: shippop-ecommerce.php:272
+msgid "Error"
+msgstr "พบข้อผิดพลาด"
+
+#: shippop-ecommerce.php:273
+msgid "Confirm"
+msgstr "ยืนยัน"
+
+#: shippop-ecommerce.php:275
+msgid "Close"
+msgstr "ปิดหน้าต่าง"
+
+#: shippop-ecommerce.php:376 shippop-ecommerce.php:482
+msgid "SHIPPOP Tracking"
+msgstr "ติดตามพัสดุจาก SHIPPOP"
+
+#: shippop-ecommerce.php:478
+msgid "Parcel dimensions"
+msgstr "ขนาดกล่องพัสดุของคำสั่งซื้อ"
+
+#: shippop-ecommerce.php:509
+msgid "Weight (kg)"
+msgstr "น้ำหนัก (กิโลกรัม)"
+
+#: shippop-ecommerce.php:514
+msgid "Width (cm)"
+msgstr "ความกว้าง (เซนติเมตร)"
+
+#: shippop-ecommerce.php:519
+msgid "Length (cm)"
+msgstr "ความยาว (เซนติเมตร)"
+
+#: shippop-ecommerce.php:524
+msgid "Height (cm)"
+msgstr "ความสูง (เซนติเมตร)"
+
+#: shippop-ecommerce.php:621
+msgid "Can’t use SHIPPOP Plugin. Please check the following"
+msgstr "ไม่สามารถใช้งาน SHIPPOP ได้ กรุณาตรวจสอบ ดังต่อไปนี้"
+
+#: shippop-ecommerce.php:623
+msgid "WordPress Version >= "
+msgstr "ใช้งาน WordPress Version >= "
+
+#: shippop-ecommerce.php:624
+msgid "PHP Version >= "
+msgstr "ใช้งาน PHP Version >= "
+
+#: shippop-ecommerce.php:625
+msgid "Install and active Woocommerce Version >= "
+msgstr "ติดตั้งและเปิดใช้งาน woocommerce Version >= "
+
+msgid "Are you sure you want to logout ?"
+msgstr "คุณต้องการออกจากระบบหรือไม่"
+
+msgid "Orders will appeared if order status is processing or order payment method is COD"
+msgstr "คำสั่งซื้อจะแสดงในหน้านี้ก็ต่อเมื่อ คำสั่งซื้อนั้น มีสถานะเป็น ชำระเงินแล้ว หรือ เป็นวิธีการชำระเงินแบบ COD"
+
+msgid "Waiting shipping information update."
+msgstr "รอข้อมูลอัพเดท"
+
+msgid "SERVICE MAINTENANCE"
+msgstr "ปิดปรับปรุงระบบ"
+
+msgid "SYSTEM MAINTENANCE"
+msgstr "ปิดปรับปรุงระบบ"
+
+msgid "INVALID ORIGIN AREA"
+msgstr "ต้นทาง อยู่นอกพื้นที่ให้บริการ"
+
+msgid "INVALID DESTINATION AREA"
+msgstr "ปลายทาง อยู่นอกพื้นที่ให้บริการ"
+
+msgid "ERROR MSG"
+msgstr "Error msg"
+
+msgid "COURIER NOT CALCULATE"
+msgstr "ขนส่งไม่สามารถคำนวณระยะทางได้"
+
+msgid "REVERSE GEOCODE FAILURE"
+msgstr "Reverse geocode failure"
+
+msgid "COD AMOUNT EXCEED"
+msgstr "เรียกเก็บเงินปลายทางได้สูงสุด 50,000 บาท"
+
+msgid "NOT SUPPORT COD"
+msgstr "บัญชีของคุณยังไม่เปิดให้บริการเก็บเงินปลายทาง (COD)"
+
+msgid "COURIER SERVICE NOT SUPPORT COD"
+msgstr "ขนส่งดังกล่าวยังไม่เปิดบริการเก็บเงินปลายทาง (COD)"
+
+msgid "INVALID WEIGHT"
+msgstr "ไม่พบข้อมูลน้ำหนัก"
+
+msgid "OVER WEIGHT"
+msgstr "น้ำหนักเกิน"
+
+msgid "MINIMUM %s ORDER"
+msgstr "ขั้นต่ำ %s ชิ้น"
+
+msgid "OUT OF SERVICE TIME"
+msgstr "นอกเวลาให้บริการ"
+
+msgid "SERVICE UNAVAILABLE"
+msgstr "อยู่นอกพื้นที่ให้บริการ"
+
+msgid "INVALID SIZE"
+msgstr "ไม่พบข้อมูลขนาดกล่อง"
+
+msgid "OVER SIZE"
+msgstr "ขนาดเกินกำหนด"
+
+msgid "HOLIDAY"
+msgstr "วันหยุดทำการพิเศษ ไม่อนุญาติให้สร้างรายการได้"
+
+msgid "INVALID POSTCODE"
+msgstr "รหัสไปรษณีย์ดังกล่าว ไม่เปิดให้ใช้บริการ"
+
+msgid "INVALID LAT , LNG DATA"
+msgstr "ไม่พบข้อมูล latitude และ longitude"
+
+msgid "UNAVILABLE"
+msgstr "ไม่พบบริการ"
+
+msgid "Testing"
+msgstr "ทดสอบใช้งาน"
+
+msgid "Live"
+msgstr "พร้อมใช้งาน"
+
+msgid "Mode"
+msgstr "โหมด"
+
+msgid "Please make sure your webhook has been set in SHIPPOP via Sales team, close this if done"
+msgstr "กรุณาตรวจสอบข้อมูลการตั้งค่า webhook ว่าได้ทำการบันทึกในระบบของ SHIPPOP แล้วผ่านทางทีม Sale แล้ว ปิดข้อความนี้หากดำเนินการแล้ว"
+
+msgid "Please logout and login SHIPPOP plugin again for a new content in plugin"
+msgstr "กรุณาออกจากระบบ และเข้าสู่ระบบอีกครั้งเพื่อรับเนื้อหาในปลั้กอินใหม่"
+
+msgid "Can't shipping cross country right now, Please waiting for new update or using SHIPPOP Inter instead"
+msgstr "ไม่สามารถขนส่งข้ามประเทศได้ในขณะนี้ กรุณารอการอัพเดตใหม่ หรือใช้งาน SHIPPOP Inter แทน"
+
+msgid "Estimated time"
+msgstr "เวลาโดยประมาณ"
+
+msgid "Decode Fail"
+msgstr "ถอดรหัสผิดพลาด"
+
+msgid "Not found orders"
+msgstr "ไม่พบคำสั่งซื้อนี้"
+
+msgid "Update Tracking"
+msgstr "ติดตามพัสดุ"
+
+msgid "Items"
+msgstr "ชิ้น"
+
+msgid "Show product name in remark"
+msgstr "แสดงสินค้าใน remark label"
+
+msgid "Sticker size 4x6 in (Show products)"
+msgstr "ขนาดสติกเกอร์ 4x6 นิ้ว (แสดงสินค้า)"
+
+msgid "Show advance setting"
+msgstr "แสดงการตั้งค่าขั่นสูง"
+
+msgid "Status filter in choose courier page"
+msgstr "กรองสถานะใหม่บนหน้า เลือกขนส่ง"
+
+msgid "Store's address for label"
+msgstr "ข้อมูลที่อยู่บนใบปะหน้า"
+
+msgid "Booking date"
+msgstr "วันที่บุ้คกิ้ง"

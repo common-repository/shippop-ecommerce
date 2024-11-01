@@ -1,0 +1,709 @@
+# Copyright (C) 2021 SHIPPOP
+# This file is distributed under the same license as the SHIPPOP plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SHIPPOP 2.5.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shippop-ecommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-03-31 13:08+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Domain: shippop-ecommerce\n"
+
+#. Plugin Name of the plugin
+#. Description of the plugin
+#. Author of the plugin
+#: includes/shippop_login.php:97 includes/shippop_login.php:98
+#: includes/shippop_setting.php:63 includes/shippop_setting.php:64
+#: shippop-ecommerce.php:418 shippop-ecommerce.php:419
+msgid "SHIPPOP"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://shippop.com"
+msgstr ""
+
+#: helper.php:199
+msgid "Deliver to Drop Off point yourself"
+msgstr ""
+
+#: helper.php:202 helper.php:206
+msgid "Pick-up service"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-address-corrector.php:107
+#: includes/ajax-api/ajax-api-choose-courier.php:246
+#: includes/ajax-api/ajax-api-choose-courier.php:251
+#: includes/ajax-api/ajax-api-choose-courier.php:283
+msgid "Select"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-choose-courier.php:97
+msgid "Fail to get order data"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-choose-courier.php:106
+msgid "Please specify parcel dimension first"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-choose-courier.php:158 shippop-ecommerce.php:282
+msgid "Booking confirmed and Payment completed"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-choose-courier.php:159
+msgid "Please print waybill"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-choose-courier.php:215
+#: includes/ajax-api/ajax-api-choose-courier.php:260
+msgid "Couriers list"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-choose-courier.php:216
+#: includes/ajax-api/ajax-api-choose-courier.php:261
+msgid "Conditions for pick-up service"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-choose-courier.php:217
+#: includes/ajax-api/ajax-api-choose-courier.php:262
+msgid "Service type"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-choose-courier.php:218
+#: includes/ajax-api/ajax-api-choose-courier.php:263
+msgid "Estimated charge"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-choose-courier.php:219
+#: includes/ajax-api/ajax-api-choose-courier.php:264
+msgid "Choose"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-choose-courier.php:306 shippop-ecommerce.php:278
+msgid "Cancel"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-choose-courier.php:307 shippop-ecommerce.php:281
+msgid "Confirm"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-parcel-shipping.php:53 shippop-ecommerce.php:280
+msgid "Error"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-parcel-shipping.php:139 shippop-ecommerce.php:91
+msgid "Success"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-parcel-shipping.php:155
+msgid "Pending"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-parcel-shipping.php:238
+#: page-table/parcel-shipping-table.php:160 page-table/report-cod-table.php:75
+#: page-table/shippop-ecommerce-table.php:143
+msgid "Order"
+msgstr ""
+
+msgid "ORDER"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-parcel-shipping.php:240
+#: page-table/parcel-shipping-table.php:163 page-table/report-cod-table.php:77
+msgid "Courier's tracking number"
+msgstr ""
+
+#: includes/ajax-api/ajax-api-parcel-shipping.php:241
+#: page-table/parcel-shipping-table.php:165 page-table/report-cod-table.php:80
+#: page-table/shippop-ecommerce-table.php:147
+msgid "Status"
+msgstr ""
+
+#: includes/choose_courier.php:45 includes/choose_courier.php:55
+#: page-table/shippop-ecommerce-table.php:304 shippop-ecommerce.php:486
+msgid "Choose Courier"
+msgstr ""
+
+#: includes/class_overview.php:38
+msgid "Number of data per page:"
+msgstr ""
+
+#: includes/parcel_shipping.php:32 shippop-ecommerce.php:276
+msgid "Confirm order cancellation ?"
+msgstr ""
+
+#: includes/parcel_shipping.php:43 shippop-ecommerce.php:431
+#: shippop-ecommerce.php:432
+msgid "Parcel List"
+msgstr ""
+
+#: includes/parcel_shipping.php:54 includes/report_cod.php:117
+#: shippop-ecommerce.php:373 shippop-ecommerce.php:395
+#: shippop-ecommerce.php:564
+msgid "Parcel tracking"
+msgstr ""
+
+#: includes/report_cod.php:61 includes/report_cod.php:104
+#: shippop-ecommerce.php:442 shippop-ecommerce.php:443
+msgid "COD Report"
+msgstr ""
+
+#: includes/report_cod.php:70
+msgid "Total"
+msgstr ""
+
+#: includes/report_cod.php:76
+msgid "Summary total"
+msgstr ""
+
+#: includes/report_cod.php:82 shippop-ecommerce.php:97
+msgid "Pending transfer"
+msgstr ""
+
+#: includes/report_cod.php:88 shippop-ecommerce.php:99
+msgid "Cancelled"
+msgstr ""
+
+#: includes/report_cod.php:94 shippop-ecommerce.php:98
+msgid "Transfered"
+msgstr ""
+
+#: includes/shippop_login.php:56
+msgid "Thank you for your interest in SHIPPOP service. We already received your information"
+msgstr ""
+
+#: includes/shippop_login.php:57
+msgid "Our team will contact you within 1-2 business days"
+msgstr ""
+
+#: includes/shippop_login.php:151
+msgid "Can’t connect. Please try again later"
+msgstr ""
+
+#: includes/shippop_login.php:162
+msgid "Login to SHIPPOP"
+msgstr ""
+
+#: includes/shippop_login.php:166 includes/shippop_login.php:220
+#: includes/shippop_setting.php:158
+msgid "Email"
+msgstr ""
+
+#: includes/shippop_login.php:170
+msgid "Password"
+msgstr ""
+
+#: includes/shippop_login.php:174 includes/shippop_login.php:228
+#: includes/shippop_setting.php:166
+msgid "Choose country"
+msgstr ""
+
+#: includes/shippop_login.php:176 includes/shippop_login.php:230
+msgid "Thailand"
+msgstr ""
+
+#: includes/shippop_login.php:177 includes/shippop_login.php:231
+msgid "Malaysia"
+msgstr ""
+
+#: includes/shippop_login.php:181
+msgid "Remember me"
+msgstr ""
+
+#: includes/shippop_login.php:187
+msgid "Login"
+msgstr ""
+
+#: includes/shippop_login.php:191
+msgid "Do not have account?"
+msgstr ""
+
+#: includes/shippop_login.php:194
+msgid "Interested in our services"
+msgstr ""
+
+#: includes/shippop_login.php:204
+msgid ""
+"Interested in our services? \n"
+" Fill this form, and our team will contact you back"
+msgstr ""
+
+#: includes/shippop_login.php:208
+msgid "Company name (Optional)"
+msgstr ""
+
+#: includes/shippop_login.php:212 includes/shippop_setting.php:183
+#: includes/shippop_setting.php:252
+msgid "Name and Surname"
+msgstr ""
+
+#: includes/shippop_login.php:216
+msgid "Telephone number"
+msgstr ""
+
+#: includes/shippop_login.php:224
+msgid "Interested courier services"
+msgstr ""
+
+#: includes/shippop_login.php:235
+msgid "Submit"
+msgstr ""
+
+#: includes/shippop_setting.php:77
+msgid "Please make sure that all required information are filled and validated before using SHIPPOP"
+msgstr ""
+
+#: includes/shippop_setting.php:87
+msgid "Information updated"
+msgstr ""
+
+#: includes/shippop_setting.php:104 shippop-ecommerce.php:464
+#: shippop-ecommerce.php:465
+msgid "Logout"
+msgstr ""
+
+#: includes/shippop_setting.php:116 includes/shippop_setting.php:119
+msgid "Save"
+msgstr ""
+
+#: includes/shippop_setting.php:124
+msgid "Please choose correct store's address for pick-up service"
+msgstr ""
+
+#: includes/shippop_setting.php:151 shippop-ecommerce.php:452
+#: shippop-ecommerce.php:453
+msgid "Settings"
+msgstr ""
+
+#: includes/shippop_setting.php:176
+msgid "Store's address for pick-up service"
+msgstr ""
+
+#: includes/shippop_setting.php:191 includes/shippop_setting.php:268
+#: page-table/shippop-ecommerce-table.php:145
+msgid "Contact number"
+msgstr ""
+
+#: includes/shippop_setting.php:199 includes/shippop_setting.php:276
+msgid "Address"
+msgstr ""
+
+#: includes/shippop_setting.php:210
+msgid "State"
+msgstr ""
+
+#: includes/shippop_setting.php:218
+msgid "District"
+msgstr ""
+
+#: includes/shippop_setting.php:226
+msgid "Province"
+msgstr ""
+
+#: includes/shippop_setting.php:234
+msgid "Zipcode"
+msgstr ""
+
+#: includes/shippop_setting.php:245
+msgid "Billing and invoice addresses"
+msgstr ""
+
+#: includes/shippop_setting.php:260
+msgid "Tax ID"
+msgstr ""
+
+#: includes/shippop_setting.php:366
+msgid "Please fill in your address"
+msgstr ""
+
+#: libs/crud-function.php:69
+msgid "Update status from SHIPPOP's WebHooks"
+msgstr ""
+
+#: libs/shippop-api.php:106
+msgid "Incorrect Address"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:161
+#: page-table/shippop-ecommerce-table.php:144
+msgid "Order date"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:162 page-table/report-cod-table.php:76
+msgid "SHIPPOP's tracking number"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:164
+msgid "Couriers"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:166
+msgid "Real weight"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:167
+msgid "Real charge"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:172
+#: page-table/shippop-ecommerce-table.php:155
+msgid "COD"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:176
+#: page-table/parcel-shipping-table.php:304
+msgid "Cancel order"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:302
+#: page-table/parcel-shipping-table.php:355 shippop-ecommerce.php:284
+msgid "Print waybill"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:324
+msgid "All"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:334
+msgid "All Courier"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:342 page-table/report-cod-table.php:229
+#: page-table/shippop-ecommerce-table.php:288
+msgid "Search from date"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:343 page-table/report-cod-table.php:230
+#: page-table/shippop-ecommerce-table.php:289
+msgid "To date"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:347
+msgid "Search by Tracking number"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:352
+#: page-table/shippop-ecommerce-table.php:303 shippop-ecommerce.php:285
+msgid "Please select order(s)"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:360 page-table/report-cod-table.php:242
+msgid "Export"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:373 page-table/report-cod-table.php:256
+#: page-table/shippop-ecommerce-table.php:316
+msgid "View"
+msgstr ""
+
+#: page-table/parcel-shipping-table.php:379 page-table/report-cod-table.php:262
+#: page-table/shippop-ecommerce-table.php:322
+msgid "items per page."
+msgstr ""
+
+#: page-table/report-cod-table.php:78
+msgid "Delivery date"
+msgstr ""
+
+#: page-table/report-cod-table.php:79
+msgid "Date of delivery completion"
+msgstr ""
+
+#: page-table/report-cod-table.php:81
+msgid "Receiver name"
+msgstr ""
+
+#: page-table/report-cod-table.php:82
+msgid "COD transfer date"
+msgstr ""
+
+#: page-table/report-cod-table.php:83
+msgid "COD amount"
+msgstr ""
+
+#: page-table/report-cod-table.php:84
+msgid "Fee"
+msgstr ""
+
+#: page-table/report-cod-table.php:85
+msgid "Transferring amount"
+msgstr ""
+
+#: page-table/report-cod-table.php:86
+msgid "Billing ID"
+msgstr ""
+
+#: page-table/report-cod-table.php:87
+msgid "Transferring status"
+msgstr ""
+
+#: page-table/report-cod-table.php:221
+msgid "Last Week"
+msgstr ""
+
+#: page-table/report-cod-table.php:222
+msgid "This Month"
+msgstr ""
+
+#: page-table/report-cod-table.php:223
+msgid "Last Month"
+msgstr ""
+
+#: page-table/report-cod-table.php:224
+msgid "Last Year"
+msgstr ""
+
+#: page-table/report-cod-table.php:235
+msgid "Search from shipping date"
+msgstr ""
+
+#: page-table/report-cod-table.php:236
+msgid "Search from COD transferring date"
+msgstr ""
+
+#: page-table/shippop-ecommerce-table.php:146
+msgid "Customer address"
+msgstr ""
+
+#: page-table/shippop-ecommerce-table.php:148
+msgid "Weight (kg.)"
+msgstr ""
+
+#: page-table/shippop-ecommerce-table.php:149
+msgid "Customer selected courier"
+msgstr ""
+
+#: page-table/shippop-ecommerce-table.php:150
+msgid "Payment method"
+msgstr ""
+
+#: page-table/shippop-ecommerce-table.php:294
+msgid "All payment method"
+msgstr ""
+
+#: shippop-ecommerce.php:89
+msgid "Confirmed"
+msgstr ""
+
+#: shippop-ecommerce.php:90
+msgid "During delivery"
+msgstr ""
+
+#: shippop-ecommerce.php:92
+msgid "Failed/Cancelled"
+msgstr ""
+
+#: shippop-ecommerce.php:93
+msgid "Returned"
+msgstr ""
+
+#: shippop-ecommerce.php:96
+msgid "Confirmation pending"
+msgstr ""
+
+#: shippop-ecommerce.php:102
+msgid "Receipt ( Default )"
+msgstr ""
+
+#: shippop-ecommerce.php:103
+msgid "A4"
+msgstr ""
+
+#: shippop-ecommerce.php:104
+msgid "A5"
+msgstr ""
+
+#: shippop-ecommerce.php:105
+msgid "A6"
+msgstr ""
+
+#: shippop-ecommerce.php:106
+msgid "Letter"
+msgstr ""
+
+#: shippop-ecommerce.php:107
+msgid "Size 4*6"
+msgstr ""
+
+#: shippop-ecommerce.php:108
+msgid "Sticker size 8x8 cm"
+msgstr ""
+
+#: shippop-ecommerce.php:109
+msgid "Sticker size 4x6 in"
+msgstr ""
+
+#: shippop-ecommerce.php:277
+msgid "OK"
+msgstr ""
+
+#: shippop-ecommerce.php:279 shippop-ecommerce.php:306
+#: shippop-ecommerce.php:328
+msgid "Notice"
+msgstr ""
+
+#: shippop-ecommerce.php:283
+msgid "Close"
+msgstr ""
+
+#: shippop-ecommerce.php:394 shippop-ecommerce.php:500
+msgid "SHIPPOP Tracking"
+msgstr ""
+
+#: shippop-ecommerce.php:496
+msgid "Parcel dimensions"
+msgstr ""
+
+#: shippop-ecommerce.php:527
+msgid "Weight (kg)"
+msgstr ""
+
+#: shippop-ecommerce.php:532
+msgid "Width (cm)"
+msgstr ""
+
+#: shippop-ecommerce.php:537
+msgid "Length (cm)"
+msgstr ""
+
+#: shippop-ecommerce.php:542
+msgid "Height (cm)"
+msgstr ""
+
+#: shippop-ecommerce.php:639
+msgid "Can’t use SHIPPOP Plugin. Please check the following"
+msgstr ""
+
+#: shippop-ecommerce.php:641
+msgid "WordPress Version >= "
+msgstr ""
+
+#: shippop-ecommerce.php:642
+msgid "PHP Version >= "
+msgstr ""
+
+#: shippop-ecommerce.php:643
+msgid "Install and active Woocommerce Version >= "
+msgstr ""
+
+msgid "Waiting shipping information update."
+msgstr ""
+
+msgid "SERVICE MAINTENANCE"
+msgstr ""
+
+msgid "SYSTEM MAINTENANCE"
+msgstr ""
+
+msgid "INVALID ORIGIN AREA"
+msgstr ""
+
+msgid "INVALID DESTINATION AREA"
+msgstr ""
+
+msgid "ERROR MSG"
+msgstr ""
+
+msgid "COURIER NOT CALCULATE"
+msgstr ""
+
+msgid "REVERSE GEOCODE FAILURE"
+msgstr ""
+
+msgid "COD AMOUNT EXCEED"
+msgstr ""
+
+msgid "NOT SUPPORT COD"
+msgstr ""
+
+msgid "COURIER SERVICE NOT SUPPORT COD"
+msgstr ""
+
+msgid "INVALID WEIGHT"
+msgstr ""
+
+msgid "OVER WEIGHT"
+msgstr ""
+
+msgid "MINIMUM %s ORDER"
+msgstr ""
+
+msgid "OUT OF SERVICE TIME"
+msgstr ""
+
+msgid "SERVICE UNAVAILABLE"
+msgstr ""
+
+msgid "INVALID SIZE"
+msgstr ""
+
+msgid "OVER SIZE"
+msgstr ""
+
+msgid "HOLIDAY"
+msgstr ""
+
+msgid "INVALID POSTCODE"
+msgstr ""
+
+msgid "INVALID LAT , LNG DATA"
+msgstr ""
+
+msgid "UNAVILABLE"
+msgstr ""
+
+msgid "Testing"
+msgstr ""
+
+msgid "Live"
+msgstr ""
+
+msgid "Mode"
+msgstr ""
+
+msgid "Please make sure your webhook has been set in SHIPPOP via Sales team, close this if done"
+msgstr ""
+
+msgid "Please logout and login SHIPPOP plugin again for a new content in plugin"
+msgstr ""
+
+msgid "Can't shipping cross country right now, Please waiting for new update or using SHIPPOP Inter instead"
+msgstr ""
+
+msgid "Estimated time"
+msgstr ""
+
+msgid "Decode Fail"
+msgstr ""
+
+msgid "Not found orders"
+msgstr ""
+
+msgid "Update Tracking"
+msgstr ""
+
+msgid "Items"
+msgstr ""
+
+msgid "Show product name in remark"
+msgstr ""
+
+msgid "Sticker size 4x6 in (Show products)"
+msgstr ""
+
+msgid "Show advance setting"
+msgstr ""
+
+msgid "Status filter in choose courier page"
+msgstr ""
+
+msgid "Store's address for label"
+msgstr ""
+
+msgid "Booking date"
+msgstr ""
